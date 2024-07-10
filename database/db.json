@@ -1,0 +1,519 @@
+{
+  "users": [
+    {
+      "id": "",
+      "fullName": "",
+      "email": "",
+      "password": "",
+      "token": ""
+    },
+    {
+      "id": "7cc5",
+      "email": "thuyphuocthinhtpt@gmail.com",
+      "password": "123456789",
+      "fullName": "Thủy Phước Thịnh",
+      "token": "upxf9kl3fM"
+    },
+    {
+      "id": "1525",
+      "email": "tranphuocquan@gmail.com",
+      "password": "123456789",
+      "fullName": "Tran Phuoc Quan",
+      "token": "1yFCtZMIVy"
+    }
+  ],
+  "topics": [
+    {
+      "id": "0000001",
+      "name": "JavaScript"
+    },
+    {
+      "id": "0000002",
+      "name": "HTML"
+    },
+    {
+      "id": "0000003",
+      "name": "CSS"
+    },
+    {
+      "id": "0000004",
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": "0000101",
+      "topicId": "0000001",
+      "question": "Which of the following is a JavaScript framework?",
+      "answers": [
+        "Laravel",
+        "Django",
+        "React",
+        "Flask"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "0000105",
+      "topicId": "0000001",
+      "question": "Which symbol is used for comments in JavaScript?",
+      "answers": [
+        "//",
+        "#",
+        "/* */",
+        "<!-- -->"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "0000106",
+      "topicId": "0000001",
+      "question": "How do you declare a variable in JavaScript?",
+      "answers": [
+        "var myVar;",
+        "variable myVar;",
+        "v myVar;",
+        "declare myVar;"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "0000107",
+      "topicId": "0000001",
+      "question": "Which method is used to parse a JSON string into a JavaScript object?",
+      "answers": [
+        "JSON.parse()",
+        "JSON.stringify()",
+        "JSON.toObject()",
+        "JSON.fromString()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "0000108",
+      "topicId": "0000001",
+      "question": "What is the output of 'console.log(typeof NaN)'?",
+      "answers": [
+        "number",
+        "string",
+        "undefined",
+        "object"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "0000109",
+      "topicId": "0000001",
+      "question": "Which method is used to add an element to the end of an array?",
+      "answers": [
+        "push()",
+        "pop()",
+        "shift()",
+        "unshift()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "0000201",
+      "topicId": "0000002",
+      "question": "What does HTML stand for?",
+      "answers": [
+        "Hyper Trainer Marking Language",
+        "Hyper Text Marketing Language",
+        "Hyper Text Markup Language",
+        "Hyper Text Markup Leveler"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "0000202",
+      "topicId": "0000002",
+      "question": "Which HTML element is used to define the title of a document?",
+      "answers": [
+        "<meta>",
+        "<title>",
+        "<header>",
+        "<head>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "0000203",
+      "topicId": "0000002",
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "answers": [
+        "<a>",
+        "<link>",
+        "<href>",
+        "<nav>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "0000204",
+      "topicId": "0000002",
+      "question": "How can you make a numbered list in HTML?",
+      "answers": [
+        "<ul>",
+        "<ol>",
+        "<li>",
+        "<dl>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "0000205",
+      "topicId": "0000002",
+      "question": "Which attribute is used to provide alternative text for an image?",
+      "answers": [
+        "alt",
+        "src",
+        "title",
+        "href"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "0000301",
+      "topicId": "0000003",
+      "question": "What does CSS stand for?",
+      "answers": [
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Computer Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "0000302",
+      "topicId": "0000003",
+      "question": "Which CSS property is used to change the text color of an element?",
+      "answers": [
+        "text-color",
+        "color",
+        "font-color",
+        "text-style"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "0000303",
+      "topicId": "0000003",
+      "question": "How do you select an element with id 'header' in CSS?",
+      "answers": [
+        ".header",
+        "*header",
+        "#header",
+        "header"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "0000304",
+      "topicId": "0000003",
+      "question": "Which property is used to change the background color?",
+      "answers": [
+        "background-color",
+        "bgcolor",
+        "color",
+        "background"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "0000305",
+      "topicId": "0000003",
+      "question": "Which CSS property controls the text size?",
+      "answers": [
+        "font-style",
+        "text-size",
+        "font-size",
+        "text-style"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "0000401",
+      "topicId": "0000004",
+      "question": "What is the primary purpose of ReactJS?",
+      "answers": [
+        "To style web pages",
+        "To manage databases",
+        "To build user interfaces",
+        "To handle HTTP requests"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": "0000402",
+      "topicId": "0000004",
+      "question": "What is a React component?",
+      "answers": [
+        "A database model",
+        "A function or class that optionally accepts inputs and returns a React element",
+        "An HTML element",
+        "A CSS style"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "0000403",
+      "topicId": "0000004",
+      "question": "How do you create a React component using a function?",
+      "answers": [
+        "function MyComponent() { return <div>Hello</div>; }",
+        "createComponent() { return <div>Hello</div>; }",
+        "new Component() { return <div>Hello</div>; }",
+        "component MyComponent() { return <div>Hello</div>; }"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": "0000404",
+      "topicId": "0000004",
+      "question": "What is the name of the method used to update the state in a class component?",
+      "answers": [
+        "updateState",
+        "setState",
+        "changeState",
+        "modifyState"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": "0000405",
+      "topicId": "0000004",
+      "question": "Which hook is used to manage state in a functional component?",
+      "answers": [
+        "useEffect",
+        "useContext",
+        "useState",
+        "useReducer"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "answers": [
+    {
+      "id": "",
+      "userId": "",
+      "topicId": "",
+      "answers": [
+        {
+          "questionId": "",
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "2904",
+      "topicId": "0000001",
+      "user_id": "7cc5",
+      "answers": [
+        {
+          "questionId": "0000101",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000105",
+          "answer": "3"
+        },
+        {
+          "questionId": "0000106",
+          "answer": "3"
+        },
+        {
+          "questionId": "0000107",
+          "answer": "2"
+        },
+        {
+          "questionId": "0000108",
+          "answer": "3"
+        },
+        {
+          "questionId": "0000109",
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "id": "772b",
+      "topicId": "0000001",
+      "user_id": "7cc5",
+      "answers": [
+        {
+          "questionId": "0000101",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000105",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000106",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000107",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000108",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000109",
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "id": "09f7",
+      "topicId": "0000003",
+      "user_id": "7cc5",
+      "answers": [
+        {
+          "questionId": "0000301",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000302",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000303",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000304",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000305",
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "id": "7f8a",
+      "topicId": "0000003",
+      "user_id": "7cc5",
+      "answers": [
+        {
+          "questionId": "0000301",
+          "answer": "1"
+        },
+        {
+          "questionId": "0000301",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000302",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000303",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000304",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000305",
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "id": "81c7",
+      "topicId": "0000001",
+      "user_id": "7cc5",
+      "answers": [
+        {
+          "questionId": "0000101",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000105",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000106",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000107",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000108",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000109",
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "id": "8c2e",
+      "topicId": "0000001",
+      "user_id": "7cc5",
+      "answers": [
+        {
+          "questionId": "0000101",
+          "answer": "1"
+        },
+        {
+          "questionId": "0000105",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000106",
+          "answer": "3"
+        },
+        {
+          "questionId": "0000107",
+          "answer": "1"
+        },
+        {
+          "questionId": "0000108",
+          "answer": "1"
+        },
+        {
+          "questionId": "0000109",
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "id": "a88a",
+      "topicId": "0000003",
+      "user_id": "7cc5",
+      "answers": [
+        {
+          "questionId": "0000301",
+          "answer": "0"
+        },
+        {
+          "questionId": "0000302",
+          "answer": "2"
+        },
+        {
+          "questionId": "0000303",
+          "answer": "2"
+        },
+        {
+          "questionId": "0000304",
+          "answer": "3"
+        },
+        {
+          "questionId": "0000305",
+          "answer": "2"
+        }
+      ]
+    }
+  ]
+}
